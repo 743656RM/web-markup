@@ -1,22 +1,37 @@
-/* add all items from grading group 3 and 4. Search for items in group 5 that refer to css f.e. z index */ 
-body{
+/* add all items from grading group 3 and 4. Search for items in group 5 that refer to css f.e. z index */
+body {
   background-color: black;
   color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
-h1{
+h1 {
   color: red;
   text-align: center;
 }
 
-h2{
+h2 {
   color: aqua;
   text-align: center;
 }
 
-p{
+p {
   line-height: 28%;
   padding-left: 5%;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .button {
@@ -27,17 +42,14 @@ p{
   text-decoration: none;
   display: inline-block;
   font-size: 20px;
-  margin: 0px 0px;
+  margin: 10px 10px;
   transition-duration: 0.8s;
   cursor: pointer;
-  position: sticky;
-  left:    0%;
-  bottom:   0%;
 }
 
 .button1 {
-  background-color: black; 
-  color: white; 
+  background-color: black;
+  color: white;
   border: 2px solid red;
 }
 
