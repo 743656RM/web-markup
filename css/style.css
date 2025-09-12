@@ -1,1 +1,20 @@
 /* add all items from grading group 3 and 4. Search for items in group 5 that refer to css f.e. z index */ 
+body{
+  background-color: black;
+  color: white;
+}
+
+h1{
+  color: red;
+  text-align: center;
+}
+
+h2{
+  color: aqua;
+  text-align: center;
+}
+
+p{
+  line-height: 28%;
+  padding-left: 5%;
+}
