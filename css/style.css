@@ -7,6 +7,11 @@ body {
   flex-direction: column;
 }
 
+aside{
+  position: fixed;
+  right: 0;
+}
+
 h1 {
   color: red;
   text-align: center;
@@ -17,9 +22,12 @@ h2 {
   text-align: center;
 }
 
+article{
+  padding-left: 2%;
+}
+
 p {
   line-height: 28%;
-  padding-left: 5%;
 }
 
 footer {
@@ -34,7 +42,7 @@ nav{
   justify-content: space-evenly;
 }
 
-.button {
+.navButton {
   border: none;
   color: white;
   padding: 8px 16px;
@@ -45,15 +53,12 @@ nav{
   margin: 10px 10px;
   transition-duration: 0.8s;
   cursor: pointer;
-}
-
-.button1 {
   background-color: black;
   color: white;
   border: 2px solid red;
 }
 
-.button1:hover {
+.navButton:hover {
   background-color: red;
   color: white;
 }
