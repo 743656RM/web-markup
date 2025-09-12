@@ -18,3 +18,30 @@ p{
   line-height: 28%;
   padding-left: 5%;
 }
+
+.button {
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 0px 0px;
+  transition-duration: 0.8s;
+  cursor: pointer;
+  position: sticky;
+  left:    0%;
+  bottom:   0%;
+}
+
+.button1 {
+  background-color: black; 
+  color: white; 
+  border: 2px solid red;
+}
+
+.button1:hover {
+  background-color: red;
+  color: white;
+}
