@@ -2,18 +2,31 @@
 body {
   background-color: black;
   color: white;
-  min-height: 100vh;
+}
+
+section{
+  min-height: 95vh;
+  border-style: double;
+  border-color: white;
+  border-width: 5px;
   display: flex;
   flex-direction: column;
+  position: relative
 }
 
 aside{
-  position: fixed;
+  border-style: solid;
+  border-color: yellow;
+  border-width: 3px;
+  position: absolute;
   right: 0;
+  top: 5em;
+  max-width: 10%;
 }
 
 header{
   background-color: darkcyan;
+  height: 5em;
 }
 
 h1 {
@@ -30,7 +43,8 @@ h2 {
 
 article{
   background-color: cadetblue;
-  min-height: ;
+  max-width: 90%;
+  flex-direction: row;
 }
 
 figure{
@@ -58,8 +72,6 @@ p {
 
 footer {
   background-color: purple;
-  display: flex;
-  flex-direction: column;
   margin-top: auto;
 }
 
