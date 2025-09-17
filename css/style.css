@@ -1,30 +1,35 @@
 /* add all items from grading group 3 and 4. Search for items in group 5 that refer to css f.e. z index */
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: black;
   color: white;
 }
 
-section{
+section {
   min-height: 95vh;
   border-style: double;
   border-color: white;
   border-width: 5px;
   display: flex;
   flex-direction: column;
-  position: relative
+  position: relative;
 }
 
-aside{
+aside {
   border-style: solid;
   border-color: yellow;
   border-width: 3px;
   position: absolute;
   right: 0;
   top: 5em;
+  min-width: 100px;
   max-width: 10%;
 }
 
-header{
+header {
   background-color: darkcyan;
   height: 5em;
 }
@@ -33,7 +38,9 @@ h1 {
   color: red;
   text-align: center;
   text-transform: uppercase;
+  font-size: 40px;
   word-spacing: 4px;
+  margin: 10px;
 }
 
 h2 {
@@ -41,13 +48,13 @@ h2 {
   text-align: center;
 }
 
-article{
+article {
   background-color: cadetblue;
   max-width: 90%;
   flex-direction: row;
 }
 
-figure{
+figure {
   border-color: yellow;
   border-width: 2px;
   border-style: dotted;
@@ -56,7 +63,7 @@ figure{
   position: relative;
 }
 
-figcaption{
+figcaption {
   font-size: 10px;
   position: absolute;
   bottom: 0;
@@ -68,6 +75,7 @@ p {
   text-indent: 2%;
   word-spacing: 2px;
   font-size: 20px;
+  margin: 40px;
 }
 
 footer {
@@ -75,7 +83,12 @@ footer {
   margin-top: auto;
 }
 
-nav{
+footer p{
+  font-size: 5px;
+  margin: 2px;
+}
+
+nav {
   background-color: gray;
   display: flex;
   flex-direction: row;
