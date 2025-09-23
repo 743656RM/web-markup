@@ -18,15 +18,16 @@ section {
   position: relative;
 }
 
+section.mainContent{
+  flex-direction: row;
+}
+
 aside {
   border-style: solid;
   border-color: yellow;
   border-width: 3px;
-  position: absolute;
+  position: relative;
   right: 0;
-  top: 5em;
-  min-width: 100px;
-  max-width: 10%;
 }
 
 header {
@@ -51,10 +52,6 @@ h2 {
 article {
   background-color: cadetblue;
   flex-direction: row;
-}
-
-article.withAside {
-  max-width: 90%;
 }
 
 figure {
