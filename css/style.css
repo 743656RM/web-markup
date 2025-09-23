@@ -53,7 +53,7 @@ article {
   flex-direction: row;
 }
 
-article.withAside{
+article.withAside {
   max-width: 90%;
 }
 
@@ -87,7 +87,7 @@ footer {
   bottom: 0;
 }
 
-footer p{
+footer p {
   font-size: 5px;
   margin: 2px;
 }
@@ -124,17 +124,17 @@ nav {
   nav {
     flex-direction: column;
   }
-  footer{
+  footer {
     position: relative;
     margin-top: auto;
   }
-  .navButton{
+  .navButton {
     min-width: 90%;
   }
 }
 
 @media (max-width: 1350px) {
-  nav{
+  nav {
     flex-wrap: wrap;
   }
 }
