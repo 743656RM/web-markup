@@ -50,12 +50,11 @@ h2 {
 
 article {
   background-color: cadetblue;
-  max-width: 90%;
   flex-direction: row;
 }
 
-article.withoutAside{
-  max-width: 100%;
+article.withAside{
+  max-width: 90%;
 }
 
 figure {
