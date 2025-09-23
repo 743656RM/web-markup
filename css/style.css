@@ -9,7 +9,6 @@ body {
 }
 
 section {
-  min-height: 95vh;
   border-style: double;
   border-color: white;
   border-width: 5px;
@@ -54,6 +53,10 @@ article {
   flex-direction: row;
 }
 
+article.withoutAside{
+  max-width: 100%;
+}
+
 figure {
   border-color: yellow;
   border-width: 2px;
@@ -71,7 +74,7 @@ figcaption {
 
 p {
   letter-spacing: 1px;
-  line-height: 28%;
+  line-height: 30px;
   text-indent: 2%;
   word-spacing: 2px;
   font-size: 20px;
@@ -80,7 +83,8 @@ p {
 
 footer {
   background-color: purple;
-  margin-top: auto;
+  position: sticky;
+  bottom: 0;
 }
 
 footer p{
@@ -107,14 +111,12 @@ nav {
   color: white;
   padding: 8px 16px;
   text-align: center;
-  text-decoration: none;
-  display: inline-block;
   font-size: 20px;
   margin: 10px 10px;
   min-width: 200px;
-  transition-duration: 0.8s;
+  transition-duration: 0.4s;
   cursor: pointer;
-  background-color: black;
+  background-color: transparent;
   color: white;
   border: 2px solid red;
 }
