@@ -6,6 +6,7 @@
 body {
   background-color: black;
   color: white;
+  max-height: initial;
 }
 
 section {
@@ -100,12 +101,6 @@ nav {
   justify-content: space-evenly;
 }
 
-@media (max-width: 800px) {
-  nav {
-    flex-direction: column;
-  }
-}
-
 .navButton {
   border: none;
   color: white;
@@ -124,4 +119,23 @@ nav {
 .navButton:hover {
   background-color: red;
   color: white;
+}
+
+@media (max-width: 800px) {
+  nav {
+    flex-direction: column;
+  }
+  footer{
+    position: relative;
+    margin-top: auto;
+  }
+  .navButton{
+    min-width: 90%;
+  }
+}
+
+@media (max-width: 1350px) {
+  nav{
+    flex-wrap: wrap;
+  }
 }
