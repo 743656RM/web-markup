@@ -22,6 +22,18 @@ form {
   margin: 40px;
 }
 
+form > input, textarea{
+  background-color: #222222;
+  color:#ebd4ff;
+  margin: 5px;
+  border-color: #943A3A;
+}
+
+#submit{
+  max-width: 10%;
+  border-color: #5f1919;
+}
+
 textarea{
   max-width: 80vw;
   min-width: 80vw;
@@ -39,7 +51,7 @@ section.mainContent {
 
 aside {
   border-style: solid;
-  border-color: yellow;
+  border-color: #4587CF;
   border-width: 3px;
   position: relative;
   right: 0;
