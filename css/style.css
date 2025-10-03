@@ -45,7 +45,7 @@ section.mainContent {
   flex-direction: row;
 }
 
-aside > aside{
+aside > p{
   border-style: solid;
   border-color: #4587CF;
   border-width: 3px;
@@ -78,9 +78,13 @@ figure {
   border-color: yellow;
   border-width: 2px;
   border-style: dotted;
-  min-height: 200px;
+  min-height: 300px;
   max-width: 200px;
   position: relative;
+}
+
+img{
+  height: ;
 }
 
 figcaption {
@@ -119,7 +123,7 @@ nav {
   justify-content: space-evenly;
 }
 
-.navButton {
+a.navButton {
   border: none;
   color: #ff7ce3;
   padding: 8px 16px;
@@ -133,7 +137,7 @@ nav {
   border: 2px solid #5f1919;
 }
 
-.navButton:hover {
+a.navButton:hover {
   background-color: #5f1919;
   color: #ebd4ff;
 }
