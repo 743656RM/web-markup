@@ -9,11 +9,13 @@ body {
   background-color: black;
   color: #ff4ad8;
   max-height: initial;
+  margin: 0;
 }
 
 form {
   display: flex;
   flex-direction: column;
+  margin: 40px;
 }
 
 textarea{
