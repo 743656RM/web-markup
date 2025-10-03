@@ -1,8 +1,12 @@
 /* add all items from grading group 3 and 4. Search for items in group 5 that refer to css f.e. z index */
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+
 * {
   box-sizing: border-box;
   letter-spacing: 1px;
   max-width: 100vw;
+  font-family: "Fira Code", monospace;
 }
 
 body {
