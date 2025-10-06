@@ -151,7 +151,9 @@ a.navButton {
   transition-duration: 0.4s;
   cursor: pointer;
   background-color: transparent;
-  border: 2px solid #5f1919;
+  border-color: #5f1919;
+  border-style: solid;
+  border-width: 2px;
 }
 
 a.navButton:hover {
