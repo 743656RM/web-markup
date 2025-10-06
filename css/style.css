@@ -92,6 +92,7 @@ article {
 }
 
 figure {
+  float: inline-flex;
   border-color: yellow;
   border-width: 2px;
   border-style: dotted;
