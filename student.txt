@@ -1,5 +1,5 @@
 Student name: Robin Murrell 
 Student number: 743656
-Student class: your class
+Student class: 1C
 GitHub Repository: https://github.com/743656RM/web-markup
 GitHub Pages URL: your github pages URL
