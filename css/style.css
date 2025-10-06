@@ -19,6 +19,13 @@ form {
   display: flex;
   flex-direction: column;
   margin: 40px;
+  border: #a827cc double 3px;
+}
+
+form > legend{
+  border: #a827cc solid 3px;
+  max-width: fit-content;
+  align-self: center;
 }
 
 form > input, textarea{
@@ -151,6 +158,12 @@ a.navButton {
 a.navButton:hover {
   background-color: #5f1919;
   color: #ebd4ff;
+}
+
+a.navButton:active{
+  padding: 6px 14px;
+  min-width: 196px;
+  background-color: #4e0808;
 }
 
 /*responsiveness*/
