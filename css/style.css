@@ -16,6 +16,7 @@ body {
 }
 
 form {
+  width: 95%;
   display: flex;
   flex-direction: column;
   margin: 40px;
@@ -25,10 +26,11 @@ form {
 form > legend{
   border: #a827cc solid 3px;
   max-width: fit-content;
-  align-self: center;
+  align-self: center; 
 }
 
 form > input, textarea{
+  width: 95%;
   background-color: #222222;
   color:#ebd4ff;
   margin: 5px;
@@ -70,15 +72,11 @@ aside > p{
   border-width: 3px;
 }
 
-header {
-  height: 5em;
-}
-
 h1 {
   color: #bd5555;
   text-align: center;
   text-transform: uppercase;
-  font-size: 56px;
+  font-size: 3.5rem;
   word-spacing: 4px;
   margin: 10px;
   line-height: 120%;
@@ -97,13 +95,14 @@ figure {
   border-color: yellow;
   border-width: 2px;
   border-style: dotted;
-  min-height: 300px;
+  min-height: 230px;
   max-width: 200px;
   position: relative;
 }
 
 img{
-  height: ;
+  height: 200px;
+  width: 200px;
 }
 
 figcaption {
@@ -117,7 +116,7 @@ p {
   line-height: 150%;
   text-indent: 2%;
   word-spacing: 2px;
-  font-size: 16px;
+  font-size: 1rem;
   margin: 40px;
 }
 
@@ -168,9 +167,6 @@ a.navButton:active{
 
 /*responsiveness*/
 @media (width <= 768px) {
-  form > input, textarea{
-    width: 15rem;
-  }
 
   section.mainContent > article{
     width: 70%;
@@ -183,7 +179,7 @@ a.navButton:active{
     flex-direction: column;
   }
   h1 {
-    font-size: 40px;
+    font-size: 2.5rem;
   }
   footer {
     position: relative;
