@@ -14,14 +14,18 @@
         <article>
           <figure><figcaption>insert figure here</figcaption></figure>
           <form>
-            <legend>Submit any questions here along with your contact info</legend>
-            <label for="question">What question do you have?</label>
+            <legend>
+              Submit any questions here along with your contact info
+            </legend>
+            <label for="name">Full name here</label>
+            <input type="text" name="name" placeholder="Your name"/>
+            <label for="question">What question/message do you have?</label>
             <textarea name="question" rows="10"> </textarea>
             <label for="phone number">Enter your phone number below.</label>
-            <input type="text" name="phone number" />
+            <input type="text" name="phone number" placeholder="+X (XXX) XXX-XXXX"/>
             <label for="email">Or email here if you prefer.</label>
-            <input type="text" name="email" value="email" />
-            <input type="submit" value="submit" id="submit" />
+            <input type="text" name="email" placeholder="email@X.X"/>
+            <input type="submit" value="Submit" id="submit" />
           </form>
         </article>
         <aside>
