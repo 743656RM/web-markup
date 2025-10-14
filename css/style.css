@@ -1,6 +1,6 @@
 /* add all items from grading group 3 and 4. Search for items in group 5 that refer to css f.e. z index */
 
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap");
 
 * {
   box-sizing: border-box;
@@ -24,26 +24,27 @@ form {
   border: #a827cc double 3px;
 }
 
-form > legend{
+form > legend {
   border: #a827cc solid 3px;
   max-width: fit-content;
-  align-self: center; 
+  align-self: center;
 }
 
-form > input, textarea{
+form > input,
+textarea {
   width: 95%;
   background-color: #222222;
-  color:#ebd4ff;
+  color: #ebd4ff;
   margin: 5px;
-  border-color: #943A3A;
+  border-color: #943a3a;
   max-width: 75vw;
 }
 
-textarea{
+textarea {
   min-width: max-content;
 }
 
-#submit{
+#submit {
   max-width: fit-content;
   border-color: #5f1919;
   padding: 10px 20px;
@@ -61,17 +62,17 @@ section.mainContent {
   flex-direction: row;
 }
 
-section.mainContent > article{
+section.mainContent > article {
   width: 80%;
 }
 
-aside{
+aside {
   max-width: 20%;
 }
 
-aside > p{
+aside > p {
   border-style: solid;
-  border-color: #4587CF;
+  border-color: #4587cf;
   border-width: 3px;
 }
 
@@ -104,7 +105,7 @@ figure {
   position: relative;
 }
 
-img{
+img {
   object-fit: cover;
   height: 200px;
   width: 200px;
@@ -167,18 +168,18 @@ a.navButton:hover {
   color: #ebd4ff;
 }
 
-a.navButton:active{
+a.navButton:active {
   padding: 6px 14px;
   min-width: 196px;
   background-color: #4e0808;
 }
 
-#current{
+#current {
   background-color: #cf3caf;
-  color: #222222  ;
+  color: #222222;
 }
 
-p.cookies{
+p.cookies {
   font-size: 2px;
   line-height: 0px;
   margin: 0px;
@@ -187,12 +188,11 @@ p.cookies{
 
 /*responsiveness*/
 @media (width <= 768px) {
-
-  section.mainContent > article{
+  section.mainContent > article {
     width: 70%;
   }
 
-  aside{
+  aside {
     max-width: 30%;
   }
   nav {
@@ -210,8 +210,26 @@ p.cookies{
   }
 }
 
-@media (width > 768px){
-  nav{
+@media (width <= 390px) {
+
+  section.mainContent{
+    flex: none;
+  }
+  aside {
+    visibility: hidden;
+    max-width: 0%;
+    position: fixed;
+    left: 0px;
+  }
+
+  section.mainContent > form, textarea{
+    max-width: 100%;
+    min-width: 0%;
+  }
+}
+
+@media (width > 768px) {
+  nav {
     flex-direction: row;
   }
 }
