@@ -21,27 +21,33 @@ form {
   display: flex;
   flex-direction: column;
   margin: 40px;
+  
+}
+
+fieldset{
   border: #a827cc double 3px;
 }
 
-form > legend {
+fieldset > legend{
   border: #a827cc solid 3px;
   max-width: fit-content;
   align-self: center;
+  background-color: black;
+  color: #ff4ad8;
 }
 
-form > input,
-textarea {
+fieldset > label{
+  background-color: black;
+  color: #ff4ad8;
+}
+
+fieldset > *{
   width: 95%;
   background-color: #222222;
   color: #ebd4ff;
   margin: 5px;
   border-color: #943a3a;
   max-width: 75vw;
-}
-
-textarea {
-  min-width: max-content;
 }
 
 #submit {
@@ -56,6 +62,10 @@ section {
   position: relative;
   max-width: 960px;
   margin: 0 auto;
+}
+
+p{
+  text-wrap: wrap;
 }
 
 section.mainContent {
@@ -96,7 +106,6 @@ article {
 }
 
 figure {
-  float: inline-flex;
   border-color: yellow;
   border-width: 2px;
   border-style: dotted;
@@ -142,7 +151,6 @@ footer p {
 
 nav {
   display: flex;
-  align-items: space-evenly;
   justify-content: space-evenly;
 }
 
@@ -216,6 +224,7 @@ p.cookies {
     flex: none;
   }
   aside {
+    float: left;
     visibility: hidden;
     max-width: 0%;
     position: fixed;
