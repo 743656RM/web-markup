@@ -173,6 +173,11 @@ a.navButton:active{
   background-color: #4e0808;
 }
 
+#current{
+  background-color: #cf3caf;
+  color: #222222  ;
+}
+
 p.cookies{
   font-size: 2px;
   line-height: 0px;
