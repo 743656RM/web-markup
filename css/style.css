@@ -64,10 +64,6 @@ section {
   margin: 0 auto;
 }
 
-p{
-  text-wrap: wrap;
-}
-
 section.mainContent {
   flex-direction: row;
 }
@@ -223,7 +219,7 @@ p.cookies {
   section.mainContent{
     flex: none;
   }
-  aside {
+  section.mainContent > aside , h3{
     float: left;
     visibility: hidden;
     max-width: 0%;
